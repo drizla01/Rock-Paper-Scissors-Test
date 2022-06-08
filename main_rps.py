@@ -28,10 +28,10 @@ def rps(computer_player,personal_player1):
         elif personal_player1 == "paper":
             if computer_player == "rock":
                 print("You chose", personal_player1, " and computer player chose ", computer_player)
-                print("player loss, paper cannot beats Rock")
+                print("player wins, paper beats Rock")
             if computer_player == "scissors":
                 print("You chose ", personal_player1, " and computer player chose ", computer_player)
-                print("player lose, Rock cannot beat scissors")
+                print("player lose, paper cannot beat scissors")
 
         elif personal_player1 == "scissors":
             if computer_player == "paper":
