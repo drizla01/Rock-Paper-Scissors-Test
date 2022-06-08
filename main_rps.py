@@ -2,10 +2,10 @@
 
 import random
 
-def rps(computer_player,personal_player1):
+def rps(computer_player,personal_player1): 
 
     while True:
-        options = ["rock","paper","scissors"]
+        options = ["rock","paper","scissors"]   #R for rock, P for Paper and S for scissors
 
         computer_player = random.choice(options)
         personal_player1 = None
